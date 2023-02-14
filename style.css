@@ -1,0 +1,543 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'bebas neue';
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(149deg, rgba(69, 86, 87, 0.637) 35%, rgb(0, 0, 0)),url(images/fondo2.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 100px;
+        
+    
+    
+    
+    
+    
+    }
+    nav{
+        display: flex;
+        padding: 2% 6%;
+        justify-content: space-between;
+        align-items: center;
+    }
+    /*------ LOGO ------*/
+    nav img{
+        width: 320px;
+        
+    }
+  
+    
+    .nav-links{
+        flex: 1;
+        text-align: right;
+    }
+    /*------ SECTIONS ------*/
+    .nav-links ul li{
+        list-style: none;
+        display: inline-block;
+        padding: 8px 15px;
+        position: relative;
+    }
+    .nav-links ul li a{
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        font-size: 30px;
+        text-shadow: 2px 4px 4px rgba(75, 75, 75, 0.6);
+    }
+
+    /*--------SECTION HOVER----------*/
+    .nav-links ul li {
+        box-shadow: inset 1px 0px 0px 0px #ffffff;
+        padding: auto;
+        margin: auto;
+        
+        
+       
+        transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        
+    }
+
+    
+    .nav-links ul li:hover {
+             color: #000000;
+             box-shadow: inset 190px 0 0 0 #000000;
+             
+             
+    }
+    
+    .nav-links ul li:active {
+        color: #000000;
+    }
+    
+
+
+
+
+        /*---------DESK--------*/
+    .desk {
+        margin-left: -60px;
+        margin-top: -180px;
+        width: 100%;
+        
+    }
+    
+    
+
+    .video{
+        margin-left: 120px;
+        margin-top: 20px;
+       
+        
+    }
+    
+   
+    
+    .video-background {
+        background-color: #000000;
+        width: 100%;
+        height: 700px;
+
+    }
+    
+    .video-background p {
+        color: white;
+        font-size: 60px;
+        margin-left: 685px;
+        padding-top: 100px;
+        cursor: pointer;
+        padding-right: 0%;
+    }
+
+    .video-background p:hover {
+        color: #fc7a00;
+        
+    }
+
+    .halveta {
+        margin-left: 50px;
+        margin-top: 60px;
+    }
+
+    .mistra {
+        margin-left: 60px;
+        
+    }
+
+    .uno {
+        margin-left: 60px;
+    }
+
+  
+    .us-div {
+        margin: 0%;
+        position: relative;
+        margin-left: -2%;
+    }
+    
+    .title {
+        position: absolute;
+        top: -80px;
+        margin-left: 400px;
+        font-size:100px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        color: rgb(255, 255, 255);
+        border: white; 
+        border-width: 2px; 
+        border-style: solid;
+        
+
+    }
+
+    
+
+    .we {
+        position: absolute;
+        top: 619px;
+        margin-left: 890px;
+        font-size: 30px;
+        color: white;
+    }
+
+    .because {
+        position: absolute;
+        top: 649px;
+        font-size: 30px;
+        margin-left: 900px;
+        color: rgb(255, 255, 255);
+        
+    }
+
+    .quality {
+        position: absolute;
+        top: 679px;
+        font-size: 30px;
+        color: rgb(255, 255, 255);
+        margin-left: 900px;
+    }
+
+    
+    .sue1 {
+        position: absolute;
+        top: 250px;
+        font-size: 30px;
+        color: white;
+        margin-left: 600px;
+    }
+    
+    .sue2 {
+        position: absolute;
+        top: 282px;
+        font-size: 30px;
+        color: white;
+        margin-left: 610px;
+    }
+
+    .sue3 {
+        position: absolute;
+        top: 314px;
+        font-size: 30px;
+        color: white;
+        margin-left: 610px;
+    }
+
+    
+    .sue {
+        position: absolute;
+        font-size: 25px;
+        color: white;
+        top: 350px;
+        margin-left: 610px;
+        font-family: 'Times New Roman', Times, serif;
+        cursor: pointer;
+    }
+    
+    
+    .sue::after {
+        content: '';
+        width: 0%;
+        height: 2px;
+        background: #fc7a00;
+        display: block;
+        margin: auto;
+        transition: 0.5s;
+    }
+    
+    
+    
+    .sue:hover::after {
+        width: 100%;
+    }
+    
+    
+    
+    
+    
+    
+    
+    .ryan {
+        font-family: 'Times New Roman', Times, serif;
+        color: rgb(255, 255, 255);
+        top: 715px;
+        position: absolute;
+        font-size: 25px;
+        margin-left: 1380px;
+        cursor: pointer;
+    }
+
+    .ryan:hover::after {
+        width: 100%;
+    } 
+
+    .ryan::after{
+        content: '';
+        width: 0%;
+        height: 2px;
+        background: #fc7a00;
+        display: block;
+        margin: auto;
+        transition: 0.5s;
+    }    
+
+    .gearfondo {
+        margin-left: -56px;
+        margin-top: -6px;
+        
+    }
+  
+    .gear-button2 {
+        position: absolute;
+        top: 2700px;
+        font-size: 80px;
+        left: 730px;
+        color: #000000;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        background-color: #ffffff00;
+        border-width: 0px;
+        border-radius: 90px;
+        
+        width: 400px;
+        
+
+    }
+
+    .gear-button2:hover {
+        cursor: pointer;
+        background-color: #000000;
+        color: #ffffff;
+        transition: 1s;
+        opacity: 0.8;
+    }
+
+    .gear-button2:active {
+        opacity: 0.3;
+    }
+
+    .fac-section {
+        margin-bottom: 200px;
+    }
+    
+    .faqbackground {
+        position: absolute;
+        margin-left: -36px;
+        margin-top: -6px;
+        padding-bottom: 50px;
+    }
+
+
+
+
+    .faq-title {
+        text-align: center;
+        margin-left: 500px;
+        margin-top: -76px;
+        font-size: 80px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        color: rgb(0, 0, 0);
+        border: rgb(0, 0, 0); 
+        border-width: 2px; 
+        border-style: solid;
+        width: 900px;
+        position: absolute;
+    }
+
+    .faq-title:hover {
+        color: white;
+        background-color: #000000;
+        transition: 0.5s;
+    }
+
+
+        
+    
+
+
+    .p1 {
+        margin-left: 300px;
+        position: absolute;
+        margin-top: 100px;
+        font-size: 30px;
+        text-decoration: underline;
+    }
+
+
+    .p2 {
+        position: absolute;
+        margin-left: 300px;
+        font-size: 30px;
+        margin-top: 180px;
+        text-decoration: underline;
+    }
+
+
+    .p3 {
+        position: absolute;
+        margin-left: 300px;
+        font-size: 30px;
+        margin-top: 250px;
+        text-decoration: underline;
+    }
+
+    .p4 {
+        position: absolute;
+        margin-left: 300px;
+        font-size: 30px;
+        margin-top: 320px;
+        text-decoration: underline;
+    }
+
+    .p5 {
+        position: absolute;
+        margin-left: 300px;
+        font-size: 30px;
+        margin-top: 390px;
+        text-decoration: underline;
+    }
+
+
+
+    .a1 {
+        position: absolute;
+        margin-left: 1100px;
+        color: #000000;
+        margin-top: 100px;
+        font-size: 30px;
+        text-decoration: underline;
+    }
+
+
+    .a2 {
+        position: absolute;
+        margin-left: 1100px;
+        margin-top: 170px;
+        font-size: 28px;
+        text-decoration: underline;
+    }
+
+    .a3 {
+        position: absolute;
+        margin-left: 1100px;
+        margin-top: 250px;
+        font-size: 30px;
+        text-decoration: underline;
+    }
+
+    .a4 {
+        position: absolute;
+        margin-left: 1100px;
+        margin-top: 320px;
+        font-size: 30px;
+        text-decoration: underline;
+    }
+
+    .a5 {
+        position: absolute;
+        margin-left: 1100px;
+        margin-top: 390px;
+        font-size: 30px;
+        text-decoration: underline;
+        padding-bottom: 50px;
+    }
+
+    .contactus-fondo {
+        top: 4000px;
+        position: absolute;
+        margin-left: -36px;
+    }
+
+    .contact-map {
+        position: absolute;
+        top: 4050px;
+        margin-left: 500px;
+        
+    }
+
+    .contact-form {
+        position: absolute;
+        top: 4000px;
+        margin-left: 950px;
+    }
+    
+    .contact-name {
+        margin-top: 50px;
+        text-align: center;
+        position: absolute;
+        color: #000000;
+        font-size: 20px;
+        padding-right: 100px;
+        padding-left: 100px;
+        margin-left: 30px;
+        border-width: 0px;
+        background-color: rgb(255, 255, 255);
+        font-family: 'Times New Roman', Times, serif;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+
+    .email {
+        margin-top: 100px;
+        position: absolute;
+        font-size: 20px;
+        margin-left: 30px;
+        padding-right: 100px;
+        text-align: center;
+        padding-left: 100px;
+        padding-bottom: 10px;
+        margin-top: 120px;
+        background-color: rgb(255, 255, 255);
+        border-width: 0px;
+        font-family: times;
+        color: #000000;
+        padding-top: 10px;
+        
+
+    }
+
+    .message {
+        position: absolute;
+        text-align: center;
+        margin-top: 200px;
+        padding-left: 100px;
+        padding-right: 120px;
+        padding-bottom: 100px;
+        font-size: 20px;
+        margin-left: 30px;
+        border-width: 0px;
+        background-color: #ffffff;
+        font-family: 'Times New Roman', Times, serif;
+        color: #000000;
+        
+    
+    }
+
+    .send-button {
+        position: absolute;
+        margin-top: 380px;
+        margin-left: 30px;
+        font-size: 20px;
+        width: 100px;
+        background-color: #ffffff;
+        border-radius: 30px;
+        border-width: 0px;
+        color: #000000;
+        cursor: pointer;
+
+    }
+
+    .send-button:hover {
+        opacity: 0.8;
+    }
+
+
+    .send-button:active {
+        opacity: 0.5;
+    }
+
+    @media only screen  and (min-width: 321px) {
+    }
+
+    @media only screen  and (min-width: 600px) {
+        
+    }
+
+    @media only screen and (min-width: 1024px) {
+
+    }
+
+    @media only screen and (min-width: 1140px) {
+
+    }
+
+   
